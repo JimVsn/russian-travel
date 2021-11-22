@@ -1,47 +1,46 @@
 .place__image {
-    max-width: 460px;
-    max-height: 460px;
-    min-height: 320px;
-    min-width: 320px;
-    width: 100%;
-    margin-right: 40px;
+	max-width: 460px;
+	max-height: 460px;
+	min-height: 320px;
+	min-width: 320px;
+	width: 100%;
+	margin-right: 40px;
 }
 
 @media screen and (width: 1024px) {
-    .place__image {
-        margin-right: 32px;
-    }
+	.place__image {
+		margin-right: 32px;
+	}
 }
 
 @media screen and (min-width: 738px) and (max-width: 766px) {
-    .place__image {
-        margin-right: 20px;
-        width: 300px;
-        height: 300px;
-    }
+	.place__image {
+		margin-right: 20px;
+		width: 300px;
+		height: 300px;
+	}
 }
 
 @media screen and (max-width: 738px) {
-    .place__image {
-        margin-right: 15px;
-        width: 300px;
-        height: 300px;
-    }
+	.place__image {
+		margin-right: 15px;
+		width: 300px;
+		height: 300px;
+	}
 }
 
 @media screen and (min-width: 766px) and (max-width: 891px) {
-    .place__image {
-        margin-right: 28px;
-        width: 340px;
-        height: 340px;
-    }
+	.place__image {
+		margin-right: 28px;
+		width: 340px;
+		height: 340px;
+	}
 }
 
 @media screen and (max-width: 350px) {
-    .place__image {
-        width: 320px;
-        height: 320px;
-        margin: 0;
-    }
+	.place__image {
+		width: 320px;
+		height: 320px;
+		margin: 0;
+	}
 }
-

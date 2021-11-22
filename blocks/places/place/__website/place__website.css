@@ -1,26 +1,25 @@
 .place__website {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    margin-bottom: 48px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	margin-bottom: 48px;
 }
 
 @media screen and (max-width: 350px) {
-    .place__website {
-        margin-left: 16px;
-        margin-bottom: 32px;
-    }
+	.place__website {
+		margin-left: 16px;
+		margin-bottom: 32px;
+	}
 }
 
 @media screen and (min-width: 418px) and (max-width: 443px) {
-    .place__website {
-        margin-right: 50px;
-    }
+	.place__website {
+		margin-right: 50px;
+	}
 }
 
 @media screen and (min-width: 890px) and (max-width: 891px) {
-    .place__website {
-        margin-right: 30px;
-    }
-    
+	.place__website {
+		margin-right: 30px;
+	}
 }
