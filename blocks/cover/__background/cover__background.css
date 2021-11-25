@@ -42,8 +42,18 @@
 	}
 }
 
-@media screen and (max-width: 499px) {
+@media screen and (min-width: 400px) and (max-width: 499px) {
 	.cover__background {
-		height: 200px;
+		max-height: 480px;
+		min-height: 320px;
+		height: 100%;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.cover__background {
+		max-height: 300px;
+		min-height: 200px;
+		height: 100%;
 	}
 }

@@ -29,11 +29,12 @@
 	}
 }
 
-@media screen and (min-width: 500px) and (max-width: 583px) {
+@media screen and (min-width: 320px) and (max-width: 583px) {
 	.place__image {
-		margin-right: 15px;
-		width: 535px;
-		height: 400px;
+		margin-right: 0;
+		max-width: 534.4px;
+		width: 100%;
+		height: 100%;
 	}
 }
 
@@ -45,10 +46,3 @@
 	}
 }
 
-@media screen and (max-width: 350px) {
-	.place__image {
-		width: 320px;
-		height: 320px;
-		margin: 0;
-	}
-}

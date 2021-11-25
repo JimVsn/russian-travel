@@ -8,3 +8,10 @@
 .place:last-child {
 	margin-bottom: 0;
 }
+
+@media screen and (max-width: 583px) {
+	.place {
+		display: flex;
+		flex-direction: column;
+	}
+}
