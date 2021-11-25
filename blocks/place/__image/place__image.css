@@ -21,11 +21,19 @@
 	}
 }
 
-@media screen and (max-width: 738px) {
+@media screen and (min-width: 583px) and (max-width: 738px) {
 	.place__image {
 		margin-right: 15px;
 		width: 300px;
 		height: 300px;
+	}
+}
+
+@media screen and (min-width: 500px) and (max-width: 583px) {
+	.place__image {
+		margin-right: 15px;
+		width: 535px;
+		height: 400px;
 	}
 }
 

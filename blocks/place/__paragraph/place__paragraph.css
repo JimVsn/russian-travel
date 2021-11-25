@@ -13,7 +13,7 @@
 	margin-bottom: 0;
 }
 
-@media screen and (max-width: 442px) {
+@media screen and (max-width: 490px) {
 	.place__paragraph {
 		margin-left: 16px;
 		margin-top: 32px;
@@ -29,13 +29,13 @@
 	}
 }
 
-@media screen and (min-width: 536px) and (max-width: 623px) {
+@media screen and (min-width: 583px) and (max-width: 671px) {
 	.place__paragraph {
 		width: 200px;
 	}
 }
 
-@media screen and (min-width: 443px) and (max-width: 536px) {
+@media screen and (min-width: 490px) and (max-width: 583px) {
 	.place__paragraph {
 		width: 100px;
 	}
