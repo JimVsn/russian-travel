@@ -1,17 +1,25 @@
 .place {
-	min-width: 320px;
-	display: flex;
-	flex-wrap: wrap;
-	margin-bottom: 80px;
+  min-width: 320px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 984px;
 }
 
 .place:last-child {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
-@media screen and (max-width: 583px) {
-	.place {
-		display: flex;
-		flex-direction: column;
-	}
+@media screen and (max-width: 766px) {
+  .place {
+	flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 583px) and (max-width: 768px) {
+  .place {
+	margin-bottom: 73px;
+  }
 }
