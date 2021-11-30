@@ -12,14 +12,14 @@
 
 @media screen and (max-width: 420px) {
   .cover__title {
-	font-size: 32px;
-	line-height: 35px;
+	  font-size: 32px;
+	  line-height: 35px;
   }
 }
 
 @media screen and (min-width: 420px) and (max-width: 499px) {
   .cover__title {
-	font-size: 52px;
-	line-height: 55px;
+	  font-size: 52px;
+	  line-height: 55px;
   }
 }
